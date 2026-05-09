@@ -21,3 +21,25 @@ The default theme is:
 
 ```text
 03 Midnight Black
+
+Credits
+
+Developed by SuM-AIr-JuTT
+
+Installation
+Download or clone this repository.
+Open Chrome or a Chromium-based browser.
+Go to:
+chrome://extensions/
+Turn on Developer mode.
+Click Load unpacked.
+Select the Super Flex project folder.
+Open the FlexStudent website and use the extension.
+Project Structure
+Super-Flex/
+├── manifest.json
+├── popup.html
+├── popup.js
+├── content.js
+├── favicon.png
+└── README.md
