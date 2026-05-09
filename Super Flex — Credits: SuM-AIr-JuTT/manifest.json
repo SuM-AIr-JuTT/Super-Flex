@@ -1,0 +1,38 @@
+{
+  "name": "Super Flex",
+  "description": "Next-level Chrome Extension for FlexStudent Portal by SuM-AIr-JuTT",
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "permissions": [
+    "scripting",
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "*://flexstudent.nu.edu.pk/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "favicon.png"
+    }
+  },
+  "icons": {
+    "16": "favicon16.png",
+    "48": "favicon48.png",
+    "128": "favicon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://flexstudent.nu.edu.pk/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "author": "SuM-AIr-JuTT",
+  "homepage_url": "https://github.com/SuM-AIr-JuTT"
+}
