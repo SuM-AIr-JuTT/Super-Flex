@@ -1,6 +1,6 @@
 # Super Flex
 
-Super Flex is a modern Chrome extension designed for the FlexStudent portal. It provides useful student tools with a clean premium interface, customizable themes, and quick automation features.
+Super Flex is a revised version of Jugaadu-Flex Chrome extension designed for the FlexStudent portal. It provides useful student tools with a clean premium interface, customizable themes, and quick automation features.
 
 ## Features
 
@@ -23,8 +23,8 @@ The default theme is:
 03 Midnight Black
 
 Credits
-
-Developed by SuM-AIr-JuTT
+Jugaadu-Flex
+SuM-AIr-JuTT
 
 Installation
 Download or clone this repository.
